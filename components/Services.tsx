@@ -53,7 +53,7 @@ export default function Services() {
     >
       <div className="mx-auto max-w-7xl">
         {/* Section heading */}
-        <div className="grid gap-10 lg:flex lg:gap-10">
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="mb-5 text-[10px] font-semibold uppercase tracking-[0.3em] text-[#a94d27]">
               What we do
@@ -99,7 +99,8 @@ export default function Services() {
                 className="transition-all duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#a94d27]"
               />
             </button>
-          </div>        </div>
+          </div> 
+                 </div>
 
 {/* SERVICES */}
         <div className="mt-20 grid gap-px overflow-hidden border border-[#211914]/15 bg-[#211914]/15 md:grid-cols-2 lg:grid-cols-5">
