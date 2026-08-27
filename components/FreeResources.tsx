@@ -3,15 +3,15 @@ import { ArrowRight, Folder } from "lucide-react";
 const resources = [
   {
     title: "30 Content Ideas\nFor Any Niche",
-    image: "/images/resources/content-ideas.jpg",
+    image: "/images/resources/book1.jpg",
   },
   {
     title: "Content Planning\nTemplate",
-    image: "/images/resources/content-planning.jpg",
+    image: "/images/resources/book2.jpg",
   },
   {
     title: "Real Hook\nSwipe File",
-    image: "/images/resources/hook-swipe.jpg",
+    image: "/images/resources/book3.jpg",
   },
 ];
 
