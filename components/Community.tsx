@@ -31,7 +31,7 @@ export default function Community() {
         {/* IMAGE SIDE */}
         <div className="relative min-h-[420px] overflow-hidden md:min-h-[520px] lg:min-h-[650px]">
           <img
-            src="/images/community.jpg"
+            src="/images/homepage/community.png"
             alt="CreateCo community workspace"
             className="absolute inset-0 h-full w-full object-cover"
           />
