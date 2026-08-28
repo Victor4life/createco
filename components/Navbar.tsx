@@ -17,7 +17,7 @@ const navLinks = [
       { name: "Workshops", href: "#services" },
     ],
   },
-  { name: "Community", href: "#community" },
+  { name: "Community", href: "/community" },
   {
     name: "Resources",
     href: "#resources",
