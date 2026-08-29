@@ -1,6 +1,9 @@
 import Community from "@/components/Community";
 import CommunityBenefits from "@/components/community/CommunityBenefits";
+import CommunityEvents from "@/components/community/CommunityEvent";
 import CommunityIntro from "@/components/community/CommunityIntro";
+import CommunityStatement from "@/components/community/CommunityStatement";
+import CommunityStories from "@/components/community/CommunityStories";
 import Navbar from "@/components/Navbar";
 
 export default function CommunityPage() {
@@ -61,6 +64,9 @@ export default function CommunityPage() {
 
       <CommunityIntro />
       <CommunityBenefits />
+      <CommunityStatement />
+      <CommunityEvents />
+      <CommunityStories />
 
       {/* MORE SECTIONS COMING NEXT */}
     </main>
