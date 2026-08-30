@@ -4,31 +4,31 @@ import { useEffect, useState } from "react";
 import { ArrowUpRight, ChevronDown, X, Menu } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
   {
     name: "Services",
-    href: "#services",
+    href: "/services",
     children: [
-      { name: "Content Creation", href: "#services" },
-      { name: "Brand Strategy", href: "#services" },
-      { name: "Social Media Management", href: "#services" },
-      { name: "Creator Campaigns", href: "#services" },
-      { name: "Workshops", href: "#services" },
+      { name: "Content Creation", href: "/services" },
+      { name: "Brand Strategy", href: "/services" },
+      { name: "Social Media Management", href: "/services" },
+      { name: "Creator Campaigns", href: "/services" },
+      { name: "Workshops", href: "/services" },
     ],
   },
   { name: "Community", href: "/community" },
   {
     name: "Resources",
-    href: "#resources",
+    href: "/resources",
     children: [
-      { name: "Free Resources", href: "#resources" },
-      { name: "Templates", href: "#resources" },
-      { name: "Guides", href: "#resources" },
+      { name: "Free Resources", href: "/resources" },
+      { name: "Templates", href: "/resources" },
+      { name: "Guides", href: "/resources" },
     ],
   },
-  { name: "Blog", href: "#blog" },
-  { name: "Contact", href: "#contact" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
