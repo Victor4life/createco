@@ -74,7 +74,7 @@ export default function Navbar() {
 
         {/* LOGO */}
         <a
-          href="#home"
+          href="/"
           onClick={closeMenu}
           className="relative z-[60] font-serif text-[25px] tracking-[-0.04em] text-white"
         >
