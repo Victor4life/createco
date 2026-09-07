@@ -3,6 +3,10 @@ import Footer from "@/components/Footer";
 
 import ServicesHero from "@/components/services/ServicesHero";
 import ServicesIntro from "@/components/services/ServicesIntro";
+import ServicesList from "@/components/services/ServicesList";
+import HowWeWork from "@/components/services/HowWeWork";
+import SelectedWork from "@/components/services/SelectedWork";
+import ServicesCTA from "@/components/services/ServicesCTA";
 
 export default function ServicesPage() {
   return (
@@ -11,6 +15,10 @@ export default function ServicesPage() {
 
       <ServicesHero />
       <ServicesIntro />
+      <ServicesList />
+      <HowWeWork />
+      <SelectedWork />
+      <ServicesCTA />
 
       <Footer />
     </main>
