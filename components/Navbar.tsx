@@ -28,6 +28,7 @@ const navLinks = [
     ],
   },
   { name: "Blog", href: "/blog" },
+  { name: "Work", href: "/work" },
   { name: "Contact", href: "/contact" },
 ];
 
